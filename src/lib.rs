@@ -1,6 +1,6 @@
 use std::{fs::File, io::prelude::*};
 
-mod grammar;
+pub mod grammar;
 
 #[cfg(test)]
 mod grammar_tests;
